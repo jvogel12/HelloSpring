@@ -12,6 +12,8 @@ public String greeting(Model model){
 
         String name = "Jake";
         model.addAttribute("name", name);
+        model.addAttribute("className", "Java");
+        model.addAttribute("classCode", 2545);
 
     return "hello";
 }
